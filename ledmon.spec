@@ -15,6 +15,7 @@ BuildRequires:	sg3_utils-devel
 BuildRequires:	pkgconfig(udev)
 BuildRequires:	pkgconfig(libpci)
 BuildRequires:	pkgconfig(check)
+BuildRequires:	pkgconfig(systemd)
 BuildSystem:	autotools
 BuildOption:	--enable-systemd
 BuildOption:	--enable-library
