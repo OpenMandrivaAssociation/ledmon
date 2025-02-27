@@ -10,7 +10,7 @@ Summary:	Enclosure LED Utilities
 URL:		https://github.com/intel/ledmon
 License:	GPL-2.0
 Group:		System/Libraries
-BuildRequires:	autoconf automake slibtool
+BuildRequires:	autoconf automake slibtool autoconf-archive
 BuildRequires:	sg3_utils-devel
 BuildRequires:	pkgconfig(udev)
 BuildRequires:	pkgconfig(libpci)
